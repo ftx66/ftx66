@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/city-university-of-macau-logo.png" alt="City University of Macau logo" width="460" />
+</p>
+
+<p align="center">
   <a href="https://github.com/ftx66">
     <img src="https://img.shields.io/badge/GitHub-ftx66-0f172a?style=flat-square&logo=github&logoColor=white" alt="GitHub badge" />
   </a>
