@@ -75,5 +75,3 @@ Connecting research ideas with reproducible experiments, prototypes, and system 
 ## A Small Note / 结尾
 
 If you are building thoughtful agentic systems, exploring memory for AI agents, or caring about AI safety in practice, I would be glad to connect. 如果你也在认真地做 Agent 系统、研究智能体记忆机制，或关注 AI 安全的实际问题，欢迎来交流。
-
-Pinned and popular repositories can stay native to GitHub below this README. 具体仓库内容就交给 GitHub 原生的仓库展示区域来承接。
