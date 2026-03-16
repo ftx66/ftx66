@@ -1,0 +1,84 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Freddy Fang profile banner</title>
+  <desc id="desc">A blue and teal academic-themed banner for Freddy Fang, highlighting research in agent memory and AI safety.</desc>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="40" x2="1184" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FEFF" />
+      <stop offset="0.5" stop-color="#E5F7F5" />
+      <stop offset="1" stop-color="#DCEEFF" />
+    </linearGradient>
+    <linearGradient id="accent" x1="221" y1="40" x2="977" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#155E75" />
+      <stop offset="0.55" stop-color="#0F766E" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="150" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.96" />
+      <stop offset="1" stop-color="#F0FDFA" stop-opacity="0.82" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#C6E7EA" stroke-opacity="0.55" stroke-width="1"/>
+    </pattern>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="28" />
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#bg)" />
+  <rect width="1280" height="360" rx="28" fill="url(#grid)" />
+
+  <circle cx="1100" cy="66" r="92" fill="#67E8F9" fill-opacity="0.20" filter="url(#blur)" />
+  <circle cx="1020" cy="266" r="118" fill="#14B8A6" fill-opacity="0.22" filter="url(#blur)" />
+  <circle cx="214" cy="305" r="96" fill="#93C5FD" fill-opacity="0.24" filter="url(#blur)" />
+
+  <path d="M907 74C976 58 1054 81 1096 136C1138 191 1140 263 1090 306" stroke="url(#accent)" stroke-opacity="0.28" stroke-width="16" stroke-linecap="round" />
+  <path d="M871 132C945 111 1000 141 1027 189C1046 222 1048 253 1034 283" stroke="url(#accent)" stroke-opacity="0.18" stroke-width="10" stroke-linecap="round" />
+
+  <rect x="76" y="54" width="176" height="34" rx="17" fill="#0F172A" fill-opacity="0.88" />
+  <text x="104" y="76" fill="#F8FAFC" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2.4">FTX66 PROFILE</text>
+
+  <text x="78" y="138" fill="#0F172A" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="54" font-weight="700">Freddy Fang</text>
+  <text x="80" y="174" fill="#155E75" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="1.2">Fang Zhenghao · Researcher + Builder</text>
+
+  <text x="78" y="222" fill="#1E293B" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="500">
+    Agent Memory, Agent Security, and trustworthy systems for AI agents
+  </text>
+  <text x="78" y="256" fill="#334155" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="500">
+    Data Science Graduate Student at City University of Macau · Working with Minfeng Qi
+  </text>
+
+  <g transform="translate(78 286)">
+    <rect width="148" height="40" rx="20" fill="url(#pill)" stroke="#A7F3D0" />
+    <text x="74" y="25" text-anchor="middle" fill="#0F766E" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Agent Systems</text>
+  </g>
+  <g transform="translate(238 286)">
+    <rect width="154" height="40" rx="20" fill="url(#pill)" stroke="#99F6E4" />
+    <text x="77" y="25" text-anchor="middle" fill="#0F766E" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Agent Memory</text>
+  </g>
+  <g transform="translate(404 286)">
+    <rect width="122" height="40" rx="20" fill="url(#pill)" stroke="#67E8F9" />
+    <text x="61" y="25" text-anchor="middle" fill="#155E75" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">AI Safety</text>
+  </g>
+  <g transform="translate(538 286)">
+    <rect width="132" height="40" rx="20" fill="url(#pill)" stroke="#BFDBFE" />
+    <text x="66" y="25" text-anchor="middle" fill="#155E75" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Data Science</text>
+  </g>
+  <g transform="translate(682 286)">
+    <rect width="154" height="40" rx="20" fill="url(#pill)" stroke="#A7F3D0" />
+    <text x="77" y="25" text-anchor="middle" fill="#0F766E" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Research Builder</text>
+  </g>
+  <g transform="translate(848 286)">
+    <rect width="130" height="40" rx="20" fill="url(#pill)" stroke="#7DD3FC" />
+    <text x="65" y="25" text-anchor="middle" fill="#155E75" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Open Source</text>
+  </g>
+
+  <g transform="translate(928 66)">
+    <rect width="238" height="134" rx="24" fill="#FFFFFF" fill-opacity="0.80" stroke="#CFFAFE" />
+    <circle cx="48" cy="46" r="11" fill="#14B8A6" />
+    <circle cx="90" cy="70" r="11" fill="#38BDF8" />
+    <circle cx="144" cy="46" r="11" fill="#22C55E" />
+    <path d="M48 46L90 70L144 46L192 84" stroke="#0F766E" stroke-width="5" stroke-linecap="round" />
+    <rect x="28" y="94" width="178" height="14" rx="7" fill="#DDF6F4" />
+    <rect x="28" y="116" width="138" height="8" rx="4" fill="#CFE8F6" />
+  </g>
+</svg>

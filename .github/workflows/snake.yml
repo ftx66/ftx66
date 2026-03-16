@@ -1,0 +1,33 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ftx66
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=%230f766e&color_dots=%23d9f3f0,%23a7e4dc,%2367c4bb,%232fa89c,%230f766e
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%235eead4&color_dots=%230f172a,%2315344d,%23155e75,%230d9488,%235eead4
+
+      - name: Publish snake assets to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
